@@ -29,11 +29,11 @@ To classify any lead, we will require two types of information about it:
 9) App_complete_flag: this is the column we are trying to predict. We are trying to understand whether a user will fill the application or not based on the information in the previous columns.
 # Category	Tools & Frameworks
 1) Programming Language	Python 3.8+
-2) Machine Learning	LightGBM, scikit-learn
-3) Experiment Tracking	MLflow
-4) Data Handling	pandas, NumPy, sqlite3
-5) Visualization	Matplotlib, Seaborn (optional, if used for plotting)
-6) MLOps & Pipeline	MLflow, Git, GitHub, Custom Python Modules
+2) Machine Learning	LightGBM, PyCaret, scikit-learn
+3) Data Handling	pandas, NumPy, sqlite3
+4) Experiment Tracking	MLflow
+5) Pipeline Orchestration	Apache Airflow
+6) Model Evaluation	scikit-learn metrics, matplotlib (ROC, AUC, accuracy, F1 score, etc.)
+7) Testing & Validation	Python unit tests with SQLite-based test case comparisons
+8) Version Control	Git, GitHub
 9) Environment Management	requirements.txt, virtualenv / conda
-10) Testing & Validation	Unit testing with assertions, comparison against stored test cases in SQLite DB
-11) Version Control	Git, GitHub
