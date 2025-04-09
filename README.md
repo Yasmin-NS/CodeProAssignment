@@ -1,8 +1,19 @@
+# CodePro Lead Classifier
+
 # Bussiness Context
 CodePro is an EdTech startup that had a phenomenal seed A funding round. 
 It used the money to increase its brand awareness. As the marketing spend increased, it got several leads from different sources. Although it had spent significant money on acquiring customers, it had to be profitable in the long run to sustain the business. 
 The major cost that the company is incurring is the customer acquisition cost (CAC). 
 Businesses want to reduce their customer acquisition costs in the long run.
+
+## Table of Contents
+* [General Info]
+* [Technologies Used]
+* [Conclusions]
+* [Acknowledgements]
+
+## General Information
+
 # Root Cause Analysis of CAC
 The reasons for the high customer acquisition cost are as follows:
 Improper targeting, High competition and Inefficient conversion.
@@ -27,7 +38,9 @@ To classify any lead, we will require two types of information about it:
 7) Referred_lead: This indicates whether a lead was referred or not.
 8) interaction type columns: These capture the type of interaction a user had with the CodePro website. For example, the user might look at payment options, syllabus, placement records, etc.
 9) App_complete_flag: this is the column we are trying to predict. We are trying to understand whether a user will fill the application or not based on the information in the previous columns.
-# Category	Tools & Frameworks
+    
+## Technologies Used
+
 1) Programming Language	Python 3.8+
 2) Machine Learning	LightGBM, PyCaret, scikit-learn
 3) Data Handling	pandas, NumPy, sqlite3
@@ -36,4 +49,10 @@ To classify any lead, we will require two types of information about it:
 6) Model Evaluation	scikit-learn metrics, matplotlib (ROC, AUC, accuracy, F1 score, etc.)
 7) Testing & Validation	Python unit tests with SQLite-based test case comparisons
 8) Version Control	Git, GitHub
-9) Environment Management	requirements.txt, virtualenv / conda
+
+## Acknowledgements
+I would like to express my sincere gratitude to everyone who supported and guided me throughout the completion of this assignment. 
+This project is part of the AI and ML course offered by UpGrad, and I am thankful for the opportunity to learn and grow in this field.
+
+## Contact
+Created by [@Yasmin-NS] - feel free to contact me!
